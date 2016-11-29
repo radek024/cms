@@ -1,0 +1,101 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-color: #222222;
+  color: #EEEEEE;
+}
+
+ul.nav{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 60px;
+  background: #eee;
+  position: relative;
+  margin-top: 240px;
+  bottom: 0;
+}
+
+ul.nav li{
+  float: left;
+  width: 33%;
+  text-align: center;
+  list-style-type: none;
+  margin-top: 15px;
+}
+
+ul:after{
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.mainterance .nav{
+  margin-top: 0;
+}
+
+.nav li a{
+  color: #000000;
+  text-decoration: none;
+  font-family: monospace;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 24px;
+}
+
+.wrapper{
+  width: 96%;
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 0 2%;
+}
+
+.wrapper header{
+  font-size: 24px;
+  font-family: monospace;
+  border-bottom: 3px solid #eee;
+  margin-bottom: 40px;
+
+}
+
+.wrapper header h1{
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper table{
+  text-align: center;
+  margin: 0 auto;
+  border: 0;
+}
+
+.wrapper table .desc{
+  background-color: #eee;
+  color: #222;
+}
+
+.wrapper table a{
+  color: #fff;
+  text-decoration: none;
+  border-bottom: 1px dotted #ddd;
+}
+
+.wrapper .data-form{
+  border: 3px solid #eee;
+  padding: 40px;
+}
+
+.wrapper .data-form input, .wrapper .data-form select, .wrapper .data-form textarea, .wrapper .data-form button{
+  display: block;
+  padding: 10px;
+  margin: 5px;
+  background: #222;
+  color: #fff;
+  border: 0;
+  border-bottom: 2px solid #eee;
+}
+
+.wrapper .data-form button{
+  margin-top: 20px;
+  border: 2px solid #eee;
+}
